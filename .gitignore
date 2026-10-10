@@ -396,3 +396,23 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Linters / type checkers / test caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Sphinx documentation build output
+docs/build/
+
+# OS
+.DS_Store
